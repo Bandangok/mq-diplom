@@ -1,0 +1,193 @@
+body {
+	margin: 0;
+}
+
+.title {
+	height: 435px;
+	width: 1660px;
+
+	
+	background: url("../images/banner-bg.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+.title__logo {
+	position: relative;
+	display: inline-block;
+	height: 40px;
+	width: 180px;
+	z-index: 3;
+	left: 248px;
+	top: 28px;
+}
+
+.nav {
+	display: flex;
+	list-style-type: none;
+	align-items: center;
+	gap: 35px;
+	
+	position: relative;
+	z-index: 2;
+	top: 17px;
+	left: 800px;
+
+}
+
+.nav__link {
+	text-decoration: none;
+	color: white;
+	font-size: 13px;
+}
+
+.header::before {
+	content: "";
+	display: block;
+	
+	position: absolute;
+	background-color: rgba(0, 0, 0, 0.6);
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	
+	z-index: 1;
+}
+
+
+.title__header {
+	position: relative;
+	font-size: 45px;
+	color: white;
+	z-index: 2;
+	line-height: 75px;
+	text-align: center;
+	margin-top: 130px;
+}
+
+.trend {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+	background-color: white;
+	height: 122px;
+	z-index: 2;
+	width: 1660px;
+}
+
+.trend__header {
+	font-size: 20px;
+}
+.trand-main {
+	width: 1660px;
+}
+
+.trend__line {
+	margin-top: -10px;
+	height: 3px;
+	width: 67px;
+	background: #b59f5b;
+}
+
+.trand__category {
+	display: flex;
+	justify-content: space-between;
+	z-index: 2;
+	background-color: #f000;
+}
+
+.category_1 {
+	display: flex;
+	background: url("../images/trend1.jpg");
+	background-repeat: no-repeat;
+	background-color: white;
+	background-size: cover;
+	background-color: eff6f1;
+	align-items: flex-end;
+	justify-content: center;
+	height: 320px;
+	width: 412px;
+}
+
+.category_2 {
+	display: flex;
+	background: url("../images/trend2.jpg");
+	background-repeat: no-repeat;
+	background-color: white;
+	background-size: cover;
+	background-color: eff6f1;
+	align-items: flex-end;
+	justify-content: center;
+	height: 320px;
+	width: 412px;
+}
+
+.category_3 {
+	display: flex;
+	background: url("../images/trend3.jpg");
+	background-repeat: no-repeat;
+	background-color: white;
+	background-size: cover;
+	background-color: eff6f1;
+	align-items: flex-end;
+	justify-content: center;
+	height: 320px;
+	width: 412px;
+}
+
+.category_4 {
+	display: flex;
+	background: url("../images/trend4.jpg");
+	background-repeat: no-repeat;
+	background-color: white;
+	background-size: cover;
+	background-color: eff6f1;
+	align-items: flex-end;
+	justify-content: center;
+	height: 320px;
+	width: 412px;
+}
+
+.category__item {
+	box-sizing: border-box;
+	border: 3px solid #b59f5b;
+	height: 146px;
+	width: 370px;
+	position: relative;
+	z-index: 2;
+	margin-bottom: 17px;
+	padding-top: 39px;
+}
+
+.category__items {
+	box-sizing: border-box;
+	border: 3px solid #b59f5b;
+	height: 170px;
+	width: 370px;
+	position: relative;
+	z-index: 2;
+	margin-bottom: 17px;
+	padding-top: 39px;
+}
+
+
+.name__link {
+	font-size: 14px;
+	color: #b59f5b;
+	margin-left: 33px;
+	text-decoration: none;
+}
+
+.category__title {
+	margin-left: 30px;
+	margin-top: 14px;
+}
+
+.title__link {
+	text-decoration: none;
+	color: white;
+	font-size: 20px;
+}
