@@ -9,48 +9,48 @@
 <body>
 	<header class="header">
 		<div class="title">
-			<img src="svg/noemi-logo.svg" alt="Logo" class="title__logo">
+			<a href="#" class="logo-link"><img src="svg/noemi-logo.svg" alt="Logo" class="title__logo"></a>
 			<nav class="title__nav">
 				<ul class="nav">
 					<li class="nav__item">
 						<a href="#" class="nav__link">ГЛАВНАЯ</a>
 					</li>
 					<li class="nav__items">
-						<a href="#" class="nav__link">ПОСТЫ</a>
+						<a href="#" class="nav__link link_one">ПОСТЫ</a>
 					</li>
 					<li class="nav__items">
-						<a href="#" class="nav__link">СТАТЬИ</a>
+						<a href="#" class="nav__link link_one">СТАТЬИ</a>
 					</li>
 					<li class="nav__items">
-						<a href="#" class="nav__link">ТЭГИ</a>
+						<a href="#" class="nav__link link_one">ТЕГИ</a>
 					</li>
 					<li class="nav__items">
-						<a href="#" class="nav__link">ТЕМЫ</a>
+						<a href="#" class="nav__link link_two">ТЕМЫ</a>
 					</li>
 					<li class="nav__items">
-					<a href="#" class="nav__link">КОНТАКТЫ</a>
+					<a href="#" class="nav__link link_three">КОНТАКТЫ</a>
 					</li>
 				</ul>
 			</nav>
-			<h1 class="title__header">БЛОГ О ТВОРЧЕСТВЕ, СПОРТЕ,</br> И ОБРАЗЕ ЖИЗНИ</h1>
+			<h1 class="title__header">
+                БЛОГ О ТВОРЧЕСТВЕ, СПОРТЕ,<br> И ОБРАЗЕ ЖИЗНИ
+            </h1>
 		</div>
 	</header>
-	<main>
+	<main class="main">
 		<div class="trand-main">
 			<div class="trend">
 				<div class="trend__header">
-					<p>СЕЙЧАС В ТРЕНДЕ</p>
-				</div>
-				<div class="trend__line">
+					<h4 class="trend-header__main">СЕЙЧАС В ТРЕНДЕ</h4>
 				</div>
 			</div>
 			<div class="trand__category">
 				<div class="category category_1">
 					<div class="category__item">
-						<div class="category__name">
-							<a href="#" class="name__link">LIFE</a>
-                            <a href="#" class="name__link second__link">INTERIOR</a>
-						</div>
+						<ul class="category__name">
+							<li class="category-name__link"><a href="#" class="name__link first-name">LIFESTYLE</a></li>
+                            <li class="category-name__link2"><a href="#" class="name__link first-name">INTERIOR</a></li>
+                        </ul>
 						<div class="category__title">
 							<a href="#" class="title__link">СЕЙЧАС В ТРЕНДЕ: САД <br> НА ПОДОКОННИКЕ</a>
 						</div>
@@ -58,9 +58,9 @@
 				</div>
 				<div class="category category_2">
 					<div class="category__items">
-						<div class="category__name">
-							<span" class="name__link">FOOD</span>
-						</div>
+						<ul class="category__name">
+							<li class="category-name__link"><a href="#" class="name__link">FOOD</a></li>
+                        </ul>
 						<div class="category__title">
 							<span class="title__link">СЫРЫ НА КРАСИВЫХ <br> КАРТИНКАХ ИЗ ИНТЕРНЕТА<br>КАКИЕ ОНИ НА ВКУС?</span>
 						</div>
@@ -68,10 +68,10 @@
 				</div>
 				<div class="category category_3">
 					<div class="category__item">
-						<div class="category__name">
-							<span class="name__link">LIFESTYLE</span>
-                            <span class="name__link second__link">TRAVEL</span>
-						</div>
+						<ul class="category__name">
+							<li class="category-name__link"><a href="#" class="name__link">LIFESTYLE</a></li>
+                            <li class="category-name__link"> <a href="#" class="name__link">TRAVEL</a></li>
+                        </ul>
 						<div class="category__title">
 							<span class="title__link">СОБИРАЕМСЯ В ПЕРВЫЙ <br> ПОХОД В ГОРЫ</span>
 						</div>
@@ -79,10 +79,10 @@
 				</div>
 				<div class="category category_4">
 					<div class="category__item">
-						<div class="category__name">
-							<span class="name__link">FOOD</span>
-                            <span class="name__link second__link">HEALTH</span>
-						</div>
+						<ul class="category__name">
+							<li class="category-name__link"><a href="#" class="name__link">FOOD</a></li>
+                            <li class="category-name__link"><a href="#" class="name__link">HEALTH</a></li>
+						</ul>
 						<div class="category__title">
 							<span class="title__link">СЕЙЧАС В ТРЕНДЕ: СКОЛЬКО<br> ВИТАМИНА С В ЛИМОНАХ </span>
 						</div>
@@ -93,14 +93,14 @@
 		<div class="post__list">
             <aside class="post-list__items">
                 <article class="post-list__item">
-                    <div class="list-item__image">
-                        <img src="images/last-post1.jpg" alt="Берег моря">
-                    </div>
+                     <img src="images/last-post1.jpg" alt="Берег моря">
                     <div class="list-item__text">
-                        <a href="#" class="name__link">TRAVEL</a>
-                        <a href="#" class="name__link second__link">HEALTH</a>
+                        <ul class="category__name1">
+                            <li class="category-name__link"><a href="#" class="name__link first-name">TRAVEL</a></li>
+                            <li class="category-name__link"><a href="#" class="name__link first-name">HEALTH</a></li>
+                        </ul>
                         <div class="text__items">  
-                            <a href="#" class="title__link1">10 МЕСТ, РАДИ КОТОРЫХ СТОИТ <br> ПРОСНУТЬСЯ НА РАССВЕТЕ</a>
+                            <a href="#" class="title__link1"><h4>10 МЕСТ, РАДИ КОТОРЫХ СТОИТ <br> ПРОСНУТЬСЯ НА РАССВЕТЕ</h4></a>
                         </div>
                         <div class="text__cont">
                             <span class="text__items1">10 июня 2019</span>
@@ -108,22 +108,22 @@
                         </div>
                         <div class="text__items3">
                             <p>
-                                Итак, вы в Питере. Раннее утро. Лед с рек и <br>
-                                каналов уже ушел, запущены фонтаны города...<br>
+                                Итак, вы в Питере. Раннее утро. Лед с рек и 
+                                каналов уже ушел, запущены фонтаны города...
                                 Музеи еще закрыты. Что посмотреть?
                             </p>
                         </div>
                     </div>
                 </article>
                 <article class="post-list__item">
-                    <div class="list-item__image">
-                        <img src="images/last-post2.jpg">
-                    </div>
+                        <img src="images/last-post2.jpg" alt="Поза для йоги">
                     <div class="list-item__text">
-                        <span href="#" class="name__link">HEALT</span>
-                        <span href="#" class="name__link second__link">LIFESTYLE</span>
+                        <ul class="category__name">
+                            <li class="category-name__link"><a href="#" class="name__link">HEALTH</a></li>
+                            <li class="category-name__link"><a href="#" class="name__link second__link">LIFESTYLE</a></li>
+                        </ul>
                         <div class="text__items">  
-                            <span href="#" class="title__link1 tittle__link1">ЙОГА ДЛЯ НАЧИНАЮЩИХ В<br>ДОМАШНИХ УСЛОВИЯХ</span>
+                            <a href="#" class="title__link1 tittle__link1"><h4>ЙОГА ДЛЯ НАЧИНАЮЩИХ В<br>ДОМАШНИХ УСЛОВИЯХ</h4></a>
                         </div>
                         <div class="text__cont">
                             <span class="text__items1">10 июня 2019</span>
@@ -131,47 +131,47 @@
                         </div>
                         <div class="text__items3">
                             <p>
-                                Расскажем, какие упражнения выбрать и как <br>
-                                сделать коврик для занятий йогой из того, что<br>
+                                Расскажем, какие упражнения выбрать и как 
+                                сделать коврик для занятий йогой из того, что
                                 можно найти в шкафу.
                             </p>
                         </div>
                     </div>
                 </article>
                 <article class="post-list__item">
-                    <div class="list-item__image">
-                        <img src="images/last-post3.jpg">
-                    </div>
+                    <img src="images/last-post3.jpg" alt="Музыкаьный фестиваль">
                     <div class="list-item__text">
-                        <a href="#" class="name__link">MUSIC</a>
-                        <div class="text__items">  
-                            <a href="#" class="title__link1">ЛУЧШИЕ МУЗЫКАЛЬНЫЕ <br> ФЕСТИВАЛИ ЭТОГО ЛЕТА</a>
+                        <ul class="category-name__music">
+                            <li class="category-name__link"><a href="#" class="name__link">MUSIC</a></li>
+                        </ul>
+                        <div class="text-items__music">  
+                            <a href="#" class="title__link1"><h4>ЛУЧШИЕ МУЗЫКАЛЬНЫЕ <br> ФЕСТИВАЛИ ЭТОГО ЛЕТА</h4></a>
                         </div>
                         <div class="text__cont">
                             <span class="text__items1">10 июня 2019</span>
                             <span class="text__items2">Неизвестный автор</span>
                         </div>
                         <div class="text__items3">
-                            <p>
-                                Лето на носу, а с ним и музыкальные фестивали.<br>
+                            <p class="text__music1">
+                                Лето на носу, а с ним и музыкальные фестивали.
                                 На каком же из них вы разобьёте свою палатку?
                             </p>
-                            <p>
-                                Мы составили список лучших летних фестивалей<br>
+                            <p class="text__music2">
+                                Мы составили список лучших летних фестивалей
                                 по всему миру.
                             </p>
                         </div>
                     </div>
                 </article>
                 <article class="post-list__item">
-                    <div class="list-item__image">
-                        <img src="images/last-post4.jpg">
-                    </div>
+                    <img src="images/last-post4.jpg" alt="Завтрак на столе">
                     <div class="list-item__text">
-                        <a href="#" class="name__link">LIFESTYLE</a>
-                        <a href="#" class="name__link second__link">FOOD</a>
-                        <div class="text__items">  
-                            <a href="#" class="title__link1">НАУКОЁМКИЙ ПОДХОД К<br>КУЛИНАРИИ</a>
+                        <ul class="category__name">
+                            <li class="category-name__link"><a href="#" class="name__link">LIFESTYLE</a></li>
+                            <li class="category-name__link"><a href="#" class="name__link second__link">FOOD</a></li>
+                        </ul>
+                        <div class="text-items__music">  
+                            <a href="#" class="title__link1"><h4>НАУКОЁМКИЙ ПОДХОД К<br>КУЛИНАРИИ</h4></a>
                         </div>
                         <div class="text__cont">
                             <span class="text__items1">10 июня 2019</span>
@@ -179,23 +179,23 @@
                         </div>
                         <div class="text__items3">
                             <p>
-                                Узнаем основы проектирования новых пищевых<br>
-                                и около-пищевых опытов, вскроем физику,<br>
+                                Узнаем основы проектирования новых пищевых
+                                и около-пищевых опытов, вскроем физику,
                                 химию и микробиологию еды.
                             </p>
                         </div>
                     </div>
                 </article>
                 <article class="post-list__item">
-                    <div class="list-item__image">
-                        <img src="images/last-post5.jpg">
-                    </div>
+                    <img src="images/last-post5.jpg" alt="Подушка с принтом">
                     <div class="list-item__text">
-                        <a href="#" class="name__link">LIFESTYLE</a>
-                        <a href="#" class="name__link second__link">INTERIOR</a>
-                        <a href="#" class="name__link second__link">ART</a>
+                        <ul class="category__name">
+                            <li class="category-name__link"><a href="#" class="name__link">LIFESTYLE</a></li>
+                            <li class="category-name__link"><a href="#" class="name__link second__link">INTERIOR</a></li>
+                            <li class="category-name__link"><a href="#" class="name__link second__link">ART</a></li>
+                        </ul>
                         <div class="text__items">  
-                            <a href="#" class="title__link1">ДЕЛАЕМ МОДНЫЕ ПРИНТЫ НА<br>ПОДУШКАХ ДЛЯ ИНТЕРЬЕРА</a>
+                            <a href="#" class="title__link1"><h4>ДЕЛАЕМ МОДНЫЕ ПРИНТЫ НА<br>ПОДУШКАХ ДЛЯ ИНТЕРЬЕРА</h4></a>
                         </div>
                         <div class="text__cont">
                             <span class="text__items1">10 июня 2019</span>
@@ -203,9 +203,9 @@
                         </div>
                         <div class="text__items3">
                             <p>
-                                Подушки для дивана целесообразнее заказать в<br>
-                                съемных чехлах на молнии, если потребуется<br>
-                                чистка подушек, проще снять чехлы, чем везти<br>
+                                Подушки для дивана целесообразнее заказать в
+                                съемных чехлах на молнии, если потребуется
+                                чистка подушек, проще снять чехлы, чем везти
                                 подушку в химчистку.
                             </p>
                         </div>
@@ -217,8 +217,6 @@
                     <div class="title__name">
                         <span class="title__name1">НОВЫЕ ПОСТЫ</span>
                     </div>
-                    <div class="title__line">
-                    </div>
                 </div>
                 <div class="last-post">
                     <div class="last-post__item last-post__item1">
@@ -226,12 +224,12 @@
                         </div>
                         <div class="last-post__text">
                             <div class="text__items1">14 июня 2019</div>
-                            <div class="title__name1 last-post__text1">10 МЕСТ, РАДИ КОТОРЫХ<br>СТОИТ ПРОСНУТЬСЯ</div>
+                            <div class="title__name1 last-post__text1"><a href="#" class="last-post__text11">10 МЕСТ, РАДИ КОТОРЫХ<br>СТОИТ ПРОСНУТЬСЯ</a></div>
                         </div>
                     </div>
                 </div>
                 <div class="last-post">
-                    <div class="last-post__item last-post__item1">
+                    <div class="last-post__item last-post__item2">
                         <div class="last-post__image last-post__image2">
                         </div>
                         <div class="last-post__text">
@@ -241,7 +239,7 @@
                     </div>
                 </div>
                 <div class="last-post">
-                    <div class="last-post__item last-post__item1">
+                    <div class="last-post__item last-post__item2">
                         <div class="last-post__image last-post__image3">
                         </div>
                         <div class="last-post__text">
@@ -251,7 +249,7 @@
                     </div>
                 </div>
                 <div class="last-post">
-                    <div class="last-post__item last-post__item1">
+                    <div class="last-post__item last-post__item2">
                         <div class="last-post__image last-post__image4">
                         </div>
                         <div class="last-post__text">
@@ -261,7 +259,7 @@
                     </div>
                 </div>
                 <div class="last-post">
-                    <div class="last-post__item last-post__item1">
+                    <div class="last-post__item last-post__item2">
                         <div class="last-post__image last-post__image5">
                         </div>
                         <div class="last-post__text">
@@ -278,11 +276,10 @@
                         <button class="button"></button>
                     </form> 
                 </div>
-                <div class="subs title__bar">
+                <div class="subs-title__bar">
                     <div class="subs__title">
-                        <span class="title__name1">РАССЫЛКА</span>
+                        <span class="title__name22">РАССЫЛКА</span>
                     </div>
-                    <div class="title__line1"></div>
                     <form class="subs__form">
                         <label class="search-label">
                             <input class="field1" type="email" name="query1" placeholder="Ваш email-адрес" required>
@@ -292,78 +289,60 @@
                         </button>
                     </form>
                 </div>
-                <div class="tags title__bar">
+                <div class="tags-title__bar">
                     <div class="subs__title">
-                        <span class="title__name1">ТЕГИ</span>
+                        <span class="title__name121">ТЕГИ</span>
                     </div>
-                    <div class="title__line1"></div>
                 </div>
                 <div class="tags__box">
-                    <div class="tags__item">
-                        <a href="#" class="tags__name">FASHION</a>
-                    </div>
-                    <div class="tags__item">
-                        <span class="tags__name">MUSIC</span >
-                    </div>
-                    <div class="tags__item">
-                        <span class="tags__name">LIFESTYLE</span >
-                    </div>
-                    <div class="tags__item">
-                        <span class="tags__name">ART</span >
-                    </div>
-                    <div class="tags__item">
-                        <span class="tags__name">INTERIOR</span >
-                    </div>
-                    <div class="tags__item">
-                        <span class="tags__name">TRAVEL</span >
-                    </div>
-                    <div class="tags__item">
-                        <span class="tags__name">FOOD</span >
-                    </div>
-                    <div class="tags__item">
-                        <span class="tags__name">HEALTH</span >
-                    </div>
+                    <ul class="tags__item">
+                        <li class="tags-item__link"><a href="#" class="tags__name">FASHION</a></li>
+                        <li class="tags-item__link"><a href="#" class="tags__name1">MUSIC</a></li>
+                        <li class="tags-item__link"><a href="#" class="tags__name2">LIFESTYLE</a></li>
+                        <li class="tags-item__link"><a href="#" class="tags__name1">ART</a></li>
+                        <li class="tags-item__link"><a href="#" class="tags__name">INTERIOR</a></li>
+                        <li class="tags-item__link"><a href="#" class="tags__name">TRAVEL</a></li>
+                        <li class="tags-item__link"><a href="#" class="tags__name3">FOOD</a></li>
+                        <li class="tags-item__link"><a href="#" class="tags__name">HEALTH</a></li>
+                    </ul>
                 </div>
-                <div class="title__bar">
-                    <div class="subs__title">
+                <div class="cat-title__bar">
+                    <div class="subs__title1">
                         <span class="title__name1">ТЕМЫ</span>
                     </div>
-                    <div class="title__line2"></div>
                 </div>
                 <div class="categories">
-                    <div class="categories__item">
-                        <a href="#" class="categories__name">Красота</a>
-                        <span class="categories__number">12</span>
-                    </div>
-                    <div class="categories__item">
-                        <a href="#" class="categories__name">Здоровье</a>
-                        <span class="categories__number">4</span>
-                    </div>
-                    <div class="categories__item">
-                        <a href="#" class="categories__name">Образ жизни</a>
-                        <span class="categories__number">145</span>
-                    </div>
-                    <div class="categories__item">
-                        <a href="#" class="categories__name">Музыка</a>
-                        <span class="categories__number">28</span>
-                    </div>
-                    <div class="categories__item">
-                        <a href="#" class="categories__name">Спорт</a>
-                        <span class="categories__number">62</span>
-                    </div>
-                    <div class="categories__item">
-                        <a href="#" class="categories__name">Йога</a>
-                        <span class="categories__number1">8</span>
-                    </div>
+                    <ul class="categories__item">
+                        <li class="categories-item__link1"><a href="#" class="categories__name">Красота</a></li>
+                        <li class="categories-item__link"><span class="categories__number">12</span></li>
+                    </ul>
+                    <ul class="categories__item1">
+                        <li class="categories-item__link1"><a href="#" class="categories__name">Здоровье</a></li>
+                        <li class="categories-item__link"><span class="categories__number">4</span></li>
+                    </ul>
+                    <ul class="categories__item1">
+                        <li class="categories-item__link1"><a href="#" class="categories__name">Образ жизни</a></li>
+                        <li class="categories-item__link"><span class="categories__number">145</span></li>
+                    </ul>
+                    <ul class="categories__item1">
+                        <li class="categories-item__link1"><a href="#" class="categories__name">Музыка</a></li>
+                        <li class="categories-item__link"><span class="categories__number">28</span></li>
+                    </ul>
+                    <ul class="categories__item1">
+                        <li class="categories-item__link1"><a href="#" class="categories__name">Спорт</a></li>
+                        <li class="categories-item__link"><span class="categories__number">62</span></li>
+                    </ul>
+                    <ul class="categories__item1">
+                        <li class="categories-item__link"><a href="#" class="categories__name">Йога</a></li>
+                        <li class="categories-item__link"><span class="categories__number1">8</span></li>
+                    </ul>
                 </div>
             </aside>
 		</div>
         <div class="shop">
-            <div class="trend">
-				<div class="trend__header">
+            <div class="trend-shop">
+				<div class="trend-shop__header">
 					<p>НАШИ ИЗДЕЛИЯ</p>
-				</div>
-				<div class="trend__line">
 				</div>
 			</div>
             <div class="shop__box">
@@ -396,7 +375,7 @@
                 <div class="shop__item">
                     <div class="shop__img1">
                     </div>
-                    <div class="shop__desc">
+                    <div class="shop__desc1">
                         <div class="shop__title">
                             <span class="shop-title__text">КУКЛА «ЗАЙЧИК»</span>
                         </div>
@@ -405,7 +384,7 @@
                                 посвящена<span class="shop__link"> весенняя серия постов </span>в блоге и несколько подкастов.</span>
                         </div>
                         <div class="shop-desc__item">
-                            <div class="shop__price">
+                            <div class="shop__price1">
                                 <div class="shop-price__item">
                                     <span class="crossed__out1">500 ₽</span>
                                 </div>
@@ -439,7 +418,7 @@
                                     <span class="total__price">400 ₽</span>
                                 </div>
                             </div>
-                            <div class="shop__magazine1">
+                            <div class="shop__magazine">
                                 <span class="shop__btn">В МАГАЗИН</span>
                             </div>
                         </div>
@@ -448,9 +427,9 @@
             </div>
         </div>
 	</main>
-	<footer>
+	<footer class="footer">
         <div class="footer__social">
-            <div class="socail__media">
+            <div class="social__media">
                 <div class="social-media__item1">
                 </div>
                 <div class="social-media__item2">
