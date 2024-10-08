@@ -14,8 +14,14 @@
 	font-weight: 400;
 }
 
+html {
+	max-width: 1660px;
+	
+}
+
 body {
-	margin-top: 0;
+	margin: 0;
+	max-width: 1660px;
 }
 
 .header{
@@ -42,6 +48,7 @@ body {
 }
 
 .nav {
+	max-width: 500px;
 	display: flex;
 	list-style-type: none;
 	align-items: center;
@@ -125,6 +132,11 @@ body {
 	min-height: 122px;
 	width: 1660px;
 }
+
+.main {
+	max-width: 1660px;
+}
+
 
 .trend-header__main {
 	height: 9px;
@@ -276,6 +288,7 @@ body {
 
 .post__list {
 	padding-left: 245px;
+	max-width: 	1660px;
 	display: flex;
 }
 
@@ -808,7 +821,7 @@ body {
 .trend-shop {
 	background-color: white;
 	min-height: 122px;
-	width: 1660px;
+	max-width: 1660px;
 
 	padding-left: 743px;
 	padding-top: 37px;
